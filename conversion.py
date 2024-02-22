@@ -1,4 +1,3 @@
-
 def calcular_parte_entera(numero, base):
     parte_entera = []
     while numero > 0:
@@ -18,8 +17,7 @@ def calcular_parte_fraccionaria(numero, base, iteraciones = 10):
         if numero == 0:
             break
     return resultado
-
-        
+  
 def main():
     base = 0
     numero = float(input('Ingrese el numero: '))
